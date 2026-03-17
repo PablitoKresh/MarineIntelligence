@@ -16,6 +16,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
 
@@ -72,6 +76,50 @@
     <main>
       <div class="container">
         <!-- TODO EL CONTENT AQUI-->
+
+        <!-- CAROUSEL DONDE SE VEA GRANDE LA CARD CENTRAL Y PEQUENAS LAS LATERALES-->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="pirata-card">
+                <img src="/img/wanteds/luffy.jpg" alt="Monkey D. Luffy" />
+                <div class="pirata-card-info">
+                  <h3>Monkey D. Luffy</h3>
+                  <p class="recompensa">3.000.000.000 Berry</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pirata-card">
+                <img src="/img/wanteds/barbanegra.png" alt="Monkey D. Luffy" />
+                <div class="pirata-card-info">
+                  <h3>Monkey D. Luffy</h3>
+                  <p class="recompensa">3.000.000.000 Berry</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pirata-card">
+                <img src="/img/wanteds/luffy.jpg" alt="Monkey D. Luffy" />
+                <div class="pirata-card-info">
+                  <h3>Monkey D. Luffy</h3>
+                  <p class="recompensa">3.000.000.000 Berry</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pirata-card">
+                <img src="/img/wanteds/luffy.jpg" alt="Monkey D. Luffy" />
+                <div class="pirata-card-info">
+                  <h3>Monkey D. Luffy</h3>
+                  <p class="recompensa">3.000.000.000 Berry</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
     </main>
     <footer>
@@ -89,5 +137,8 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

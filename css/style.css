@@ -144,3 +144,59 @@ body {
     font-size: 2rem;
   }
 }
+
+
+/*prueba de estilo carousel con swiper*/
+/* -------- SWIPER CAROUSEL -------- */
+
+
+.swiper{
+  width: 100%;
+  padding-top: 4rem;
+}
+
+
+.swiper-slide {
+  width: 280px;
+}
+
+.pirata-card {
+  border: 2px solid var(--dorado);
+  border-radius: 6px;
+  overflow: hidden; /* importante para que la imagen no se salga */
+  background-color: #112244;
+}
+
+.pirata-card img {
+  width: 100%;
+  height: 100%px;
+  object-fit: cover;
+  display: block; /* elimina el espacio extra bajo la imagen */
+}
+
+.pirata-card-info {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid var(--dorado);
+}
+
+.pirata-card-info h3 {
+  color: var(--dorado);
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.pirata-card-info .recompensa {
+  color: var(--blanco-hueso);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+/* Flechas en dorado */
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-color: var(--dorado);
+}
