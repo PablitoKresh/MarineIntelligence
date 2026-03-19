@@ -1,88 +1,86 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <title>Marine Intelligence</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
+<head>
+  <title>Marine Intelligence</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <body>
-    <header>
-      <!-- place navbar here -->
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
-        <div class="container-fluid">
-          <!-- Logo + Título -->
-          <a class="navbar-brand d-flex align-items-center gap-3" href="#">
-            <img
-              src="/img/marineLogo.png"
-              alt="Logo Marine Intelligence"
-              class="navbar-logo"
-            />
-            <div class="navbar-title">
-              <span class="title-marine">MARINE</span>
-              <br />
-              <span class="title-intelligence">INTELLIGENCE</span>
-            </div>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menuPrincipal"
-            aria-controls="menuPrincipal"
-            aria-expanded="false"
-            aria-label="Abrir menú"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Enlaces -->
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="menuPrincipal"
-          >
-            <ul class="navbar-nav gap-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#piratas">Piratas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#frutas">Frutas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#tripulaciones">Tripulaciones</a>
-              </li>
-            </ul>
+<body>
+  <header>
+    <!-- place navbar here -->
+
+    <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+      <div class="container-fluid">
+        <!-- Logo + Título -->
+        <a class="navbar-brand d-flex align-items-center gap-3" href="#">
+          <img src="img/marineLogo.png" alt="Logo Marine Intelligence" class="navbar-logo" />
+          <div class="navbar-title">
+            <span class="title-marine">MARINE</span>
+            <br />
+            <span class="title-intelligence">INTELLIGENCE</span>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Enlaces -->
+        <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#piratas">Piratas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#frutas">Frutas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tripulaciones">Tripulaciones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+
+      <!-- HERO -->
+      <section class="hero">
+        <h1 class="hero-titulo">Los más buscados</h1>
+        <p class="hero-subtitulo">Base de datos de los piratas más buscados del Grand Line</p>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-numero">500</span>
+            <span class="stat-label">🏴‍☠️ Piratas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-numero">120</span>
+            <span class="stat-label">⚔️ Tripulaciones</span>
+          </div>
+          <div class="stat">
+            <span class="stat-numero">100</span>
+            <span class="stat-label">🍎 Frutas del Diablo</span>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <div class="container">
-        <!-- TODO EL CONTENT AQUI-->
+      </section>
 
-        <!-- CAROUSEL DONDE SE VEA GRANDE LA CARD CENTRAL Y PEQUENAS LAS LATERALES-->
+      <!-- CAROUSEL -->
+      <div class="swiper-wrapper-container">
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="pirata-card">
-                <img src="/img/wanteds/luffy.jpg" alt="Monkey D. Luffy" />
+                <img src="img/wanteds/luffy.jpg" alt="Monkey D. Luffy" />
                 <div class="pirata-card-info">
                   <h3>Monkey D. Luffy</h3>
                   <p class="recompensa">3.000.000.000 Berry</p>
@@ -91,27 +89,27 @@
             </div>
             <div class="swiper-slide">
               <div class="pirata-card">
-                <img src="/img/wanteds/barbanegra.png" alt="Monkey D. Luffy" />
+                <img src="img/wanteds/barbanegra.png" alt="Marshall D. Teach" />
                 <div class="pirata-card-info">
-                  <h3>Monkey D. Luffy</h3>
+                  <h3>Marshall D. Teach</h3>
+                  <p class="recompensa">3.996.000.000 Berry</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pirata-card">
+                <img src="img/wanteds/buggy.png" alt="Buggy D. Clown" />
+                <div class="pirata-card-info">
+                  <h3>Buggy D. Clown</h3>
                   <p class="recompensa">3.000.000.000 Berry</p>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="pirata-card">
-                <img src="/img/wanteds/luffy.jpg" alt="Monkey D. Luffy" />
+                <img src="img/wanteds/shanks.jpg" alt="Akagami No Shanks" />
                 <div class="pirata-card-info">
-                  <h3>Monkey D. Luffy</h3>
-                  <p class="recompensa">3.000.000.000 Berry</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="pirata-card">
-                <img src="/img/wanteds/luffy.jpg" alt="Monkey D. Luffy" />
-                <div class="pirata-card-info">
-                  <h3>Monkey D. Luffy</h3>
+                  <h3>Akagami No Shanks</h3>
                   <p class="recompensa">3.000.000.000 Berry</p>
                 </div>
               </div>
@@ -121,24 +119,26 @@
           <div class="swiper-button-next"></div>
         </div>
       </div>
-    </main>
-    <footer>
-      <!-- place footer here -->
+
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+    <footer class="footer">
+      <p>MARINE INTELLIGENCE &nbsp;|&nbsp; Gobierno Mundial &copy; 2024 &nbsp;|&nbsp; Todos los derechos reservados</p>
     </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

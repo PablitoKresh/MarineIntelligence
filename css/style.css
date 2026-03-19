@@ -200,3 +200,93 @@ body {
 .swiper-button-prev {
   --swiper-navigation-color: var(--dorado);
 }
+
+/* PARTE DE LA CABECERA */
+
+/* -------- HERO SECTION -------- */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+}
+
+.hero-titulo {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.2rem;
+  color: var(--dorado);
+  letter-spacing: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitulo {
+  font-size: 0.95rem;
+  color: var(--blanco-hueso);
+  letter-spacing: 2px;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-numero {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--dorado);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-top: 0.3rem;
+}
+
+/* -------- DEGRADADO LATERAL CAROUSEL -------- */
+.swiper-wrapper-container {
+  position: relative;
+}
+
+.swiper-wrapper-container::before,
+.swiper-wrapper-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 180px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.swiper-wrapper-container::before {
+  left: 0;
+  background: linear-gradient(to right, var(--azul-marino), transparent);
+}
+
+.swiper-wrapper-container::after {
+  right: 0;
+  background: linear-gradient(to left, var(--azul-marino), transparent);
+}
+
+/* -------- FOOTER -------- */
+.footer {
+  margin-top: 5rem;
+  border-top: 1px solid var(--dorado);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--blanco-hueso);
+  opacity: 0.6;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
