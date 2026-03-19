@@ -351,3 +351,12 @@ body {
   margin-top: 2rem;
 
 }
+
+.card-img-top {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+  background-color: #112244;
+  padding: 1rem;
+   /* para que las imágenes se integren mejor con el fondo oscuro */
+}
