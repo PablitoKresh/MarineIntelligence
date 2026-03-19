@@ -215,14 +215,17 @@ body {
   color: var(--dorado);
   letter-spacing: 4px;
   margin-bottom: 0.5rem;
+  margin-top: 2rem;
 }
 
 .hero-subtitulo {
+  font-family: inherit;
   font-size: 0.95rem;
   color: var(--blanco-hueso);
   letter-spacing: 2px;
   opacity: 0.8;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .hero-stats {
@@ -289,4 +292,62 @@ body {
   opacity: 0.6;
   font-size: 0.75rem;
   letter-spacing: 2px;
+}
+
+
+
+/* -------- SECCION FRUTAS DEL DIABLO -------- */
+/* -------- SECCIÓN FRUTAS -------- */
+.frutas-titulo {
+  font-family: 'Cinzel Decorative', cursive;
+  color: var(--dorado);
+  letter-spacing: 4px;
+  font-size: 1.6rem;
+}
+
+.card {
+  background-color: #112244;
+  border: 2px solid var(--dorado);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 24px rgba(201, 168, 76, 0.4);
+  transform: translateY(-4px);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  background-color: #112244; /* para que el fondo vacío a los lados sea del mismo color */
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 1.2rem;
+  border-top: 1px solid var(--dorado);
+}
+
+.card-title {
+  color: var(--dorado);
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: var(--blanco-hueso);
+  font-size: 0.82rem;
+  opacity: 0.8;
+  line-height: 1.6;
+  margin: 0;
+}
+
+#frutas {
+  margin-top: 2rem;
+
 }
