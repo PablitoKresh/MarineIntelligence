@@ -171,7 +171,7 @@ body {
   width: 100%;
   height: 100%px;
   object-fit: cover;
-  display: block; /* elimina el espacio extra bajo la imagen */
+  display: block; /* elimina el espacio extra debajo de la imagen */
 }
 
 .pirata-card-info {
@@ -322,7 +322,7 @@ body {
   width: 100%;
   height: 280px;
   object-fit: contain;
-  background-color: #112244; /* para que el fondo vacío a los lados sea del mismo color */
+  background-color: #112244; /* para que el fondo vacio a los lados sea del mismo color */
   padding: 1rem;
 }
 
@@ -358,5 +358,44 @@ body {
   object-fit: contain;
   background-color: #112244;
   padding: 1rem;
-   /* para que las imágenes se integren mejor con el fondo oscuro */
+   /* para que las imágenes se vean mejor con el fondo oscuro*/
+}
+
+
+/* ACORDEON */
+/* -------- ACORDEÓN TRIPULACIONES -------- */
+.accordion-item {
+  background-color: #112244;
+  border: 1px solid var(--dorado);
+  margin-bottom: 0.5rem;
+  border-radius: 6px !important;
+  overflow: hidden;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.accordion-button {
+  background-color: #112244;
+  color: var(--blanco-hueso);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--azul-marino);
+  color: var(--dorado);
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+.accordion-body {
+  background-color: var(--azul-marino);
+  color: var(--blanco-hueso);
+  font-size: 0.85rem;
+  line-height: 1.7;
+  opacity: 0.9;
 }
